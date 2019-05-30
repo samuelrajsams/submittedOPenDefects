@@ -1,0 +1,8 @@
+{
+  "name": "webex-teams-overview",
+  "version": "0.0.1.26",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  }
+}

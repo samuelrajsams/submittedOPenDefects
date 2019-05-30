@@ -1,0 +1,12 @@
+properties:
+  vlist2:
+    type: element
+    xtype: at-core-vlist
+    listHeight: 500px
+    itemComponent: webex-teams-overview/webex-teams-overview-message-card
+    modelRoot: state.model.mentions
+    listHeightExpanded: 500px
+rules: []
+$meta:
+  cardId: !!int 23
+$type: card

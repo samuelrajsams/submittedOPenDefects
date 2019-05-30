@@ -1,0 +1,238 @@
+$type: card
+properties:
+  view1:
+    type: element
+    title: View
+    xtype: at-core-view
+    view: |-
+      {% if initial %}
+      	<div class="pysm"></div>
+      {% endif %}
+      <a href="{{ link }}">
+        <div class="layout-horizontal mx">
+          <div class="layout-self-start mlsm">
+            {% if gtype == "first" or gtype == "firstlast" %}
+              {% if roomAvatar %}
+                <iron-image sizing="cover" preload class="avatar layout-self-start mr" src="{{ roomAvatar }}"></iron-image>
+              {% else %}
+                <div class="avatar initials text-primary white background-grey mr">{{ initials }}</div>
+              {% endif %}
+            {% else %}
+              <div style="width:64px"></div>
+            {% endif %}
+          </div>
+          <div class="layout-flex text-primary">
+            {% if gtype == "first" or gtype == "firstlast" %}
+              <div class="layout-horizontal layout-around-justified layout-inline">
+                <div class="font-bold" style="width:100%">{{ roomName }}</div>&nbsp;
+                <div style="width:100%;text-align:right;"><at-carbon-moment class="text-secondary" datetime="{{ date }}" format="h:mm A" auto-refresh></at-carbon-moment></div>
+              </div>
+              <div class="font-body1 mtsm mbsm">
+                <span>{{ displayName }}</span>.&nbsp;<span class="grey">{{ description }}</span>
+              </div>
+            {% else %}
+              <div class="font-body1 mbsm">
+                <span>{{ displayName }}</span>.&nbsp;<span class="grey">{{ description }}</span>
+              </div>
+            {% endif %}
+      			{% if fileCount > 0 %}
+        			<div class="layout-horizontal mbsm">
+        				<iron-image sizing="cover" class="file" preload src="/components/webex-teams-overview/Webex_Files.svg"></iron-image>
+        				<span style="padding:5px">&nbsp;{{ fileCount }} file {% if fileCount == 1 %}attachment{% else %}attachments{% endif %}</span>
+        			</div>
+      			{% endif %}
+            {% if gtype == "last" or gtype == "firstlast" %}
+              <div class="font-caption grey {% if final %}mb{% endif %}">
+                {% if hiddenCount > 0 %}
+                  +{% if hiddenCount < 48 %}{{ hiddenCount }}{% endif %}&nbsp;more
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+      {% if gtype == "last" or gtype == "firstlast" %}
+      	{% unless final %}
+      		<div class="bb mxlg mb mtsm grey" style="height:1px;"></div>
+      	{% endunless %}
+      {% endif %}
+
+      <style>
+      .avatar {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+      }
+        
+      .file {
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+      }
+
+      .initials {
+        text-align: center;
+      	vertical-align: middle;
+      	line-height: 48px;
+      }
+      </style>
+    modelRoot: state.model
+$meta:
+  cardId: !!int 23
+  preview-mode: live
+  preview-container: item
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+      "messages": {
+        "count": 24,
+        "items": [
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTM4YTk2OTAtNjgyNi0xMWU5LTk0NzQtMDM4OTkwOGE2YjQy",
+            "title": "direct",
+            "description": "ah ok, makes sense",
+            "link": null,
+            "date": "2019-04-26T13:24:10.489Z",
+            "personId": null,
+            "gtype": "first",
+            "roomName": "Martin",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2JlNTZkMzAtNjgyNi0xMWU5LTg1NjUtODllZTc5MWIwNTg5",
+            "title": "direct",
+            "description": "I think in direct message mention does not work ",
+            "link": null,
+            "date": "2019-04-26T13:23:30.819Z",
+            "personId": null,
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGM4OGM4ODAtNjgxYS0xMWU5LWJmYWEtZjdjMmU1MjJkYTY2",
+            "title": "direct",
+            "description": "creating a room as well",
+            "link": null,
+            "date": "2019-04-26T11:54:30.024Z",
+            "personId": null,
+            "gtype": "last",
+            "hiddenCount": 1,
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmE4ZjY4NjAtNjgyNi0xMWU5LTk2ZjAtMjE0NjE2OTAxMWEy",
+            "title": "group",
+            "description": "All Oliver and again",
+            "link": null,
+            "date": "2019-04-26T13:23:01.734Z",
+            "personId": null,
+            "gtype": "first",
+            "roomName": "Test Space",
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjQwZTg1NzAtNjgyNi0xMWU5LWE4ZDUtZWRlYTBjOGJiMWM5",
+            "title": "group",
+            "description": "Oliver  sure",
+            "link": null,
+            "date": "2019-04-26T13:22:50.823Z",
+            "personId": null,
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvY2QxYjJlMjAtNjgyNS0xMWU5LTkxN2QtYzU1YzhmNjA0Y2Vj",
+            "title": "group",
+            "description": "can you mention me twice more in separate messages, then once again in a direct chat? need to check behaviour when mentions > 3, and also when mentions are in multiple chats. then (hopefully) connector is finished for now. the logic is a bit confusing, sorry it took longer than I expected",
+            "link": null,
+            "date": "2019-04-26T13:18:37.57Z",
+            "personId": null,
+            "gtype": "last",
+            "hiddenCount": 9,
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmVlNTA0YzAtNjgxNi0xMWU5LTg2MzEtZDc3NTM1ZDAzMzMx",
+            "title": "direct",
+            "description": "Hi, how can I help you?",
+            "link": null,
+            "date": "2019-04-26T11:30:51.276Z",
+            "personId": null,
+            "gtype": "first",
+            "roomName": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmVhM2I2MDAtNjgxNi0xMWU5LWFkZTQtODkxOWM1N2UwOGU5",
+            "title": "direct",
+            "description": "Hi",
+            "link": null,
+            "date": "2019-04-26T11:30:50.848Z",
+            "personId": null,
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMWNjZTBjODAtNjgwZC0xMWU5LWJjMjItMzUzODE0YzAzYWFi",
+            "title": "direct",
+            "description": "Bots can send automated notifications, respond to questions, and even be an in-app assistant. To see which bots are available and start using one, login to the Cisco Webex App Hub (https://apphub.webex.com/) using your Webex Teams app user name and password.",
+            "link": null,
+            "date": "2019-04-26T10:21:53.864Z",
+            "personId": null,
+            "gtype": "last",
+            "hiddenCount": 5,
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          }
+        ]
+      },
+      "mentions": {
+        "count": 3,
+        "items": [
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmE4ZjY4NjAtNjgyNi0xMWU5LTk2ZjAtMjE0NjE2OTAxMWEy",
+            "title": "group",
+            "description": "All Oliver and again",
+            "link": null,
+            "date": "2019-04-26T13:23:01.734Z",
+            "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NjgzZGJiYS1lOGRmLTRjMjktYTc3NC0wODllZWM1ZjllMmE",
+            "gtype": "first",
+            "roomName": "Test Space"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjQwZTg1NzAtNjgyNi0xMWU5LWE4ZDUtZWRlYTBjOGJiMWM5",
+            "title": "group",
+            "description": "Oliver  sure",
+            "link": null,
+            "date": "2019-04-26T13:22:50.823Z",
+            "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NjgzZGJiYS1lOGRmLTRjMjktYTc3NC0wODllZWM1ZjllMmE"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYWViYjUxNTAtNjgxZS0xMWU5LTkxZGYtMzE4M2JjN2M4N2U0",
+            "title": "group",
+            "description": "Oliver sure",
+            "link": null,
+            "date": "2019-04-26T12:27:40.133Z",
+            "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NjgzZGJiYS1lOGRmLTRjMjktYTc3NC0wODllZWM1ZjllMmE",
+            "gtype": "last"
+          }
+        ]
+      },
+      "files": {
+        "items": []
+      },
+      "_settings": {}
+    }
+  xclass: 
+  xstyle: 
+  code: |-
+    action.initialize = function(evt) {
+      //debugger;
+    }
+rules: []

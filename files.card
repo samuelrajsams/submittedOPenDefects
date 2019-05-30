@@ -1,0 +1,44 @@
+properties:
+  view2:
+    type: element
+    title: Liquid View 2
+    xtype: at-core-view
+    view: |-
+      <div class="font-display1 mx mb">
+        	Recent Files
+      </div>
+    modelRoot: state.model
+  vlist1:
+    type: element
+    xtype: at-core-vlist
+    listHeight: 300px
+    itemComponent: webex-teams-overview/webex-teams-overview-file-card
+    modelRoot: state.model.files
+rules: []
+$meta:
+  cardId: !!int 23
+  preview-mode: static
+  preview-container: search
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+        "items": [
+          {
+            "type": "image/png",
+            "name": "MicrosoftTeams-image.png",
+            "author": "Oliver McNally",
+            "created": "2019-04-11T09:21:07.747Z"
+          },
+          {
+            "type": "text/plain",
+            "name": "icons8-planner.svg",
+            "author": "Oliver McNally",
+            "created": "2019-04-11T08:21:47.300Z"
+          }
+        ],
+      "_settings": {}
+    }
+  xclass: 
+  xstyle: 
+$type: card

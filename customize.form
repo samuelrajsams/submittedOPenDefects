@@ -1,0 +1,10 @@
+$type: form
+properties:
+  name:
+    type: string
+    title: Your name
+    name: name
+rules: []
+$meta:
+  title: Card Settings
+  sectionMode: auto

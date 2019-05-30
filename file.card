@@ -1,0 +1,53 @@
+$type: card
+properties:
+  view1:
+    type: element
+    title: View
+    xtype: at-core-view
+    view: |-
+      <div class="action">
+      	<div class="layout-flex text-primary mx ptsm pbsm">
+        	<div class="clamp">
+          	<span class="font-bold">{{ name }}</span>&nbsp;<span class="font-caption">{{ type }}</span>
+            <at-carbon-moment class="text-secondary" datetime="{{ created }}" from-now auto-refresh no-suffix style="display:inline-block;"></at-carbon-moment>
+          </div>
+          <div class="grey font-caption" style="margin-top: 2px; margin-bottom: 2px;">
+          	{{ author }}
+          </div>
+        </div>
+      </div>
+
+      <style>
+      .action:hover {
+        background-color: #F5f5f5;
+      }
+
+      .clamp {
+      	white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .avatar {
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+      }
+      </style>
+$meta:
+  cardId: !!int 23
+  preview-mode: static
+  preview-container: item
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+      "title": "abc"
+    }
+  xclass: 
+  xstyle: 
+  code: |-
+    action.initialize = function(evt) {
+      //debugger;
+    }
+rules: []

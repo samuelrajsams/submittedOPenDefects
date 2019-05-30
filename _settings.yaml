@@ -1,0 +1,73 @@
+contentType: Card
+title: Webex Teams Overview
+name: webex-teams-overview
+CollectionModeField:
+  CollectionMode: 0
+MaxItemsField:
+  MaxItems: 3
+PriorityField:
+  Priority: 5
+StreamSource: null
+CardComponent: webex-teams-overview/webex-teams-overview-card
+StoreMetadataField:
+  description: See your latest messages, mentions and files from Webex Teams.
+  logourl: webex-teams-overview/Teams_Icon.png
+  storehide: !!bool false
+  disableWorkplace: !!bool false
+  promotion: !!bool true
+CommonPart:
+  Owner: !!int 2
+  Container: null
+  CreatedUtc: 2019-04-29T08:24:01.9474966Z
+  PublishedUtc: 2019-04-29T08:24:01.9935902Z
+  ModifiedUtc: 2019-04-29T08:24:01.9474966Z
+  VersionCreatedUtc: 2019-04-29T08:24:01.0000000
+  VersionPublishedUtc: 2019-04-29T08:24:01.0000000
+  VersionModifiedUtc: 2019-04-29T08:24:01.0000000
+ServicePart:
+  ConnectorTypeName: ScriptConnector
+  ConnectorTypeId: !!int 5
+  ConnectorName: webex-teams
+  ServiceName: recentmessages
+  Url: ~/api/adenin.GateKeeper.Connector/webex-teams/recentmessages
+  ServiceParameters: '{}'
+SearchContextPart:
+  Query: null
+  Interface: null
+CommandPart:
+  CommandType: None
+  Command: 
+  DefaultDate: null
+  Intent: null
+  Ext: {}
+AppPart:
+  App: null
+  Url: 
+  ExtUrl: 
+  Priority: !!int 0
+  AppFaceId: !!int 0
+  Category: orange
+  Icon: now:search
+  CSSClasses: null
+  Enabled: !!bool false
+  NewWindow: !!bool false
+  UrlWithId: !!bool true
+  AvailableAppFaceRecords: null
+  HasPattern: !!bool false
+RoleViewPermissionsPart:
+  AllowedRoles: []
+  Audiences:
+    - Authenticated
+  Mandatory: False
+RecurringTaskPart:
+  Schedule: '- - - - -'
+  ActivityType: adenin.Now.Activities.CardTask.UpdateCard
+  StartDateUtc: null
+  EndDateUtc: null
+  NextOccurrenceUtc: null
+  Priority: !!int 5
+  Status: Enabled
+  NowFlag: 0
+  LastExecutionUTC: null
+  EnableWebHook: !!bool false
+  WebHookToken: null

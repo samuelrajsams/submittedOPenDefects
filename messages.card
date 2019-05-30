@@ -1,0 +1,1214 @@
+properties:
+  vlist1:
+    type: element
+    xtype: at-core-vlist
+    itemComponent: webex-teams-overview/webex-teams-overview-message-card
+    listHeight: 500px
+    actionListeners:
+      - _all
+    items: []
+    model: 
+    modelRoot: state.model.messages
+    listHeightExpanded: 500px
+rules: []
+$meta:
+  cardId: !!int 23
+  preview-mode: static
+  preview-container: event
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+        "items": [
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNDRmOGRjMzAtM2E3Ny0xMWU5LWFlNGYtZTFjOGViNjUxMDI1",
+            "title": "direct",
+            "description": "Sure!",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNDRmOGRjMzAtM2E3Ny0xMWU5LWFlNGYtZTFjOGViNjUxMDI1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Sure!",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:05:54.419Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMzY0ZTk2NzAtM2E3Ny0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+            "title": "direct",
+            "description": "No problem, let me know if there's any other issues",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMzY0ZTk2NzAtM2E3Ny0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "No problem, let me know if there's any other issues",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-27T10:05:29.815Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjQ5ODQ5MzAtM2E3Ny0xMWU5LWI2ZWItYmQ3OGUzNzEwNTY1",
+            "title": "direct",
+            "description": "Thanks a lot for your quick support.",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjQ5ODQ5MzAtM2E3Ny0xMWU5LWI2ZWItYmQ3OGUzNzEwNTY1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Thanks a lot for your quick support.",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:05:00.099Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTlmNGJlYTAtM2E3Ny0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+            "title": "direct",
+            "description": "I ll proceed with this approach then",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTlmNGJlYTAtM2E3Ny0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "I ll proceed with this approach then",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:04:42.250Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTIyZThhNzAtM2E3Ny0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+            "title": "direct",
+            "description": "This worked",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTIyZThhNzAtM2E3Ny0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "This worked",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:04:29.207Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGYyZmEyNTAtM2E3Ny0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+            "title": "direct",
+            "description": "Super :)",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGYyZmEyNTAtM2E3Ny0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Super :)",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:04:24.181Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzdkOWI4YTAtM2E3Ni0xMWU5LWI3NTQtZTNjZDYzZTAwZjg5",
+            "title": "direct",
+            "description": "Please let me know if that works for you",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzdkOWI4YTAtM2E3Ni0xMWU5LWI3NTQtZTNjZDYzZTAwZjg5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Please let me know if that works for you",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-27T10:00:10.282Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzVkYTNmMjAtM2E3Ni0xMWU5LTlhZjMtNTU0MGM0MjVkMDRm",
+            "title": "direct",
+            "description": "oh..ok...let me try quickly",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzVkYTNmMjAtM2E3Ni0xMWU5LTlhZjMtNTU0MGM0MjVkMDRm",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "oh..ok...let me try quickly",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T10:00:06.930Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjZhNDM0MjAtM2E3Ni0xMWU5LTk5ZTgtYjc3ZGUyMjQ4OTNm",
+            "title": "direct",
+            "description": "But we can abandon that approach now, I've got to the bottom of using multiple .card definitions like so:\n\nSay we have two dialog cards:\ndialog.card\ndialog2.card\n\nwe can then fire dialog2.card by having the following tags in the at-carbon-signal button: tap-event=\"dialog\" tap-event-data=\"dialog2\"",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjZhNDM0MjAtM2E3Ni0xMWU5LTk5ZTgtYjc3ZGUyMjQ4OTNm",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "But we can abandon that approach now, I've got to the bottom of using multiple .card definitions like so:\n\nSay we have two dialog cards:\ndialog.card\ndialog2.card\n\nwe can then fire dialog2.card by having the following tags in the at-carbon-signal button: tap-event=\"dialog\" tap-event-data=\"dialog2\"",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-27T09:59:41.410Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWZjOTIzNDAtM2E3Ni0xMWU5LTgwOTAtNjM5MTQ1ZTM3MDIz",
+            "title": "direct",
+            "description": "but seems it takes only dialog.card",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWZjOTIzNDAtM2E3Ni0xMWU5LTgwOTAtNjM5MTQ1ZTM3MDIz",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "but seems it takes only dialog.card",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T09:59:29.908Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTdmZTgyNDAtM2E3Ni0xMWU5LWJmODUtMWRjY2I5Y2IzMTIw",
+            "title": "direct",
+            "description": "ok...I tried the alternate of using different dialog cards",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTdmZTgyNDAtM2E3Ni0xMWU5LWJmODUtMWRjY2I5Y2IzMTIw",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "ok...I tried the alternate of using different dialog cards",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T09:59:16.836Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2FjMzcyMzAtM2E3Ni0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+            "title": "direct",
+            "description": "Hi Arun,\n\nWhether the parameter name taken by the action is 'state' or 'evt' should not matter.\n\nThe at-click-action would also need to be \"setDialog\" - it is not working for me either, my guess is that it is overriding an at-click-action used under the hood to launch the dialog card.",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2FjMzcyMzAtM2E3Ni0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Hi Arun,\n\nWhether the parameter name taken by the action is 'state' or 'evt' should not matter.\n\nThe at-click-action would also need to be \"setDialog\" - it is not working for me either, my guess is that it is overriding an at-click-action used under the hood to launch the dialog card.",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-27T09:58:27.795Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYzFlODExYjAtM2E1YS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+            "title": "direct",
+            "description": "But I m unsure if the setDialog is really getting triggered as the value isnt being set",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYzFlODExYjAtM2E1YS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "But I m unsure if the setDialog is really getting triggered as the value isnt being set",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:41:48.619Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjBlMWRhOTAtM2E1YS0xMWU5LWE5Y2UtNjU5MTRiM2QwMmM1",
+            "title": "direct",
+            "description": "I see that during card operation, the section under initialize (hence the parameters under it) is executed correctly",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjBlMWRhOTAtM2E1YS0xMWU5LWE5Y2UtNjU5MTRiM2QwMmM1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "I see that during card operation, the section under initialize (hence the parameters under it) is executed correctly",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:41:20.057Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTBmYTZmMzAtM2E1YS0xMWU5LWFmYzctNmZmM2I5ZGUwMDQx",
+            "title": "direct",
+            "description": "intention is that when the click happens from my card, a string value is set to a parameter",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTBmYTZmMzAtM2E1YS0xMWU5LWFmYzctNmZmM2I5ZGUwMDQx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "intention is that when the click happens from my card, a string value is set to a parameter",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:40:26.531Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjZkN2IwZjAtM2E1YS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+            "title": "direct",
+            "description": "action.initialize = function(evt) {\nevt.model.dialogOption = \"test\";\n}\n\naction.setDialog = function(evt) {\nevt.model.dialogOption1 = \"cdets\";\n}",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjZkN2IwZjAtM2E1YS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "action.initialize = function(evt) {\nevt.model.dialogOption = \"test\";\n}\n\naction.setDialog = function(evt) {\nevt.model.dialogOption1 = \"cdets\";\n}",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:39:15.839Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTc4MmFjNDAtM2E1YS0xMWU5LWE4ZmUtMzdmZWM5NWYyYzJl",
+            "title": "direct",
+            "description": "In Card Actions:",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTc4MmFjNDAtM2E1YS0xMWU5LWE4ZmUtMzdmZWM5NWYyYzJl",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "In Card Actions:",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:38:50.116Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTAzZGRkMTAtM2E1YS0xMWU5LWFmYzctNmZmM2I5ZGUwMDQx",
+            "title": "direct",
+            "description": "Note: when I just used function as setDialog, the dialog wouldnt launch ",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTAzZGRkMTAtM2E1YS0xMWU5LWFmYzctNmZmM2I5ZGUwMDQx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Note: when I just used function as setDialog, the dialog wouldnt launch ",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:38:37.921Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNDA2ZjNiOTAtM2E1YS0xMWU5LWJiYTgtMjE4ZmQxNWVhMmUz",
+            "title": "direct",
+            "description": "<at-carbon-signal-button class=\"background-blue mt\" tap-event=\"dialog\" at-click-action=\"action.setDialog\">Details</at-carbon-signal-button>\n",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNDA2ZjNiOTAtM2E1YS0xMWU5LWJiYTgtMjE4ZmQxNWVhMmUz",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "<at-carbon-signal-button class=\"background-blue mt\" tap-event=\"dialog\" at-click-action=\"action.setDialog\">Details</at-carbon-signal-button>\n",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:38:11.401Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2M1NjMwZTAtM2E1YS0xMWU5LTliNGEtZWJiYTNmZjdjYzc1",
+            "title": "direct",
+            "description": "In Card liquid view:",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2M1NjMwZTAtM2E1YS0xMWU5LTliNGEtZWJiYTNmZjdjYzc1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "In Card liquid view:",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:38:04.526Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMzY5ZTZhNTAtM2E1YS0xMWU5LWI2ZWItYmQ3OGUzNzEwNTY1",
+            "title": "direct",
+            "description": "This is what I have:",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMzY5ZTZhNTAtM2E1YS0xMWU5LWI2ZWItYmQ3OGUzNzEwNTY1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "This is what I have:",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:37:54.933Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTZlZDJhMjAtM2E1YS0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+            "title": "direct",
+            "description": "where I could show it on my environment",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTZlZDJhMjAtM2E1YS0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "where I could show it on my environment",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:37:01.762Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGQ5N2YxODAtM2E1YS0xMWU5LTkxZTgtZjNlY2RlNTVjMTM3",
+            "title": "direct",
+            "description": "Would it be possible to have a quick session today?",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGQ5N2YxODAtM2E1YS0xMWU5LTkxZTgtZjNlY2RlNTVjMTM3",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Would it be possible to have a quick session today?",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:36:46.104Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMDI2ZmY0YjAtM2E1YS0xMWU5LTgwMDctMDFiZjY3ZTJmMTZk",
+            "title": "direct",
+            "description": "I m still not able to get the conditional rendering of the dialog card",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMDI2ZmY0YjAtM2E1YS0xMWU5LTgwMDctMDFiZjY3ZTJmMTZk",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "I m still not able to get the conditional rendering of the dialog card",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:36:27.387Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzc3YWZkMDAtM2E1OS0xMWU5LWJmNDEtZDU3YTIyZjQ2Njkw",
+            "title": "direct",
+            "description": "Hi Oliver",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzc3YWZkMDAtM2E1OS0xMWU5LWJmNDEtZDU3YTIyZjQ2Njkw",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Hi Oliver",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T06:32:34.256Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTNmZDk3ODAtM2E0OS0xMWU5LTljODQtOGY2NmI1NGVjZjFl",
+            "title": "direct",
+            "description": "for on-click-action",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTNmZDk3ODAtM2E0OS0xMWU5LTljODQtOGY2NmI1NGVjZjFl",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "for on-click-action",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:39:16.984Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOWZkYmIzMzAtM2E0OS0xMWU5LWE5Y2UtNjU5MTRiM2QwMmM1",
+            "title": "direct",
+            "description": "the document on card actions shows only function(state)",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOWZkYmIzMzAtM2E0OS0xMWU5LWE5Y2UtNjU5MTRiM2QwMmM1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "the document on card actions shows only function(state)",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:39:10.051Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTYwMDMzOTAtM2E0OS0xMWU5LTgzOGYtODc4Y2RhYWQ2MDg3",
+            "title": "direct",
+            "description": "typo....function(evt)",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTYwMDMzOTAtM2E0OS0xMWU5LTgzOGYtODc4Y2RhYWQ2MDg3",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "typo....function(evt)",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:38:53.513Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGIxMmNlYzAtM2E0OS0xMWU5LWEzNmUtODFiZmZiNDA4ZTZk",
+            "title": "direct",
+            "description": "is it function(state)   or fucntion(evt)",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGIxMmNlYzAtM2E0OS0xMWU5LWEzNmUtODFiZmZiNDA4ZTZk",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "is it function(state)   or fucntion(evt)",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:38:35.180Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2YyNTVmMTAtM2E0OS0xMWU5LWFlNGYtZTFjOGViNjUxMDI1",
+            "title": "direct",
+            "description": "for the actions definition in the default.card",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2YyNTVmMTAtM2E0OS0xMWU5LWFlNGYtZTFjOGViNjUxMDI1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "for the actions definition in the default.card",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:38:15.169Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzgyNmU3YjAtM2E0OS0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+            "title": "direct",
+            "description": "Hi Ollie",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzgyNmU3YjAtM2E0OS0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Hi Ollie",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-27T04:38:03.435Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNGFmMmE1NTAtMzllOS0xMWU5LWJmODUtMWRjY2I5Y2IzMTIw",
+            "title": "direct",
+            "description": "let me try it for conditional rendering",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNGFmMmE1NTAtMzllOS0xMWU5LWJmODUtMWRjY2I5Y2IzMTIw",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "let me try it for conditional rendering",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T17:09:35.909Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2Y0YzUwYzAtMzllOS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+            "title": "direct",
+            "description": "Thanks!",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2Y0YzUwYzAtMzllOS0xMWU5LThiMzEtZjliOWI1MTk3OTYy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Thanks!",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T17:09:16.364Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMWFmNzc5MjAtMzllOS0xMWU5LTgyODEtZGJhZDRlMTgxODUw",
+            "title": "direct",
+            "description": "sorry correction, that should be the actions tab of default.card (in the designer)",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMWFmNzc5MjAtMzllOS0xMWU5LTgyODEtZGJhZDRlMTgxODUw",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "sorry correction, that should be the actions tab of default.card (in the designer)",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T17:08:15.410Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGNlZTU1NjAtMzllOS0xMWU5LWJkNzUtNTNjY2RlNjk1Yzk4",
+            "title": "direct",
+            "description": "We should be able to get it working with multiple .card definitions though after I have looked into it",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMGNlZTU1NjAtMzllOS0xMWU5LWJkNzUtNTNjY2RlNjk1Yzk4",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "We should be able to get it working with multiple .card definitions though after I have looked into it",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T17:07:51.862Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMDBkN2Q5ZTAtMzllOS0xMWU5LWI0ZDctY2RhMmY5MjFkNjQ5",
+            "title": "direct",
+            "description": "In the actions tab of dialog.card you could define an action.setDialog = function(evt) {evt.model.dialogName = evt.args.dialog;}, which is triggered on button click and takes the info of which button and assigns to the model, which can then be read in the dialog.card (as variable 'actionName' in liquid markup) to conditionally render the content. on the button that opens the dialog then add at-click-action=\"setDialog\" and dialog=\"{yourDialogName}\"",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMDBkN2Q5ZTAtMzllOS0xMWU5LWI0ZDctY2RhMmY5MjFkNjQ5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "In the actions tab of dialog.card you could define an action.setDialog = function(evt) {evt.model.dialogName = evt.args.dialog;}, which is triggered on button click and takes the info of which button and assigns to the model, which can then be read in the dialog.card (as variable 'actionName' in liquid markup) to conditionally render the content. on the button that opens the dialog then add at-click-action=\"setDialog\" and dialog=\"{yourDialogName}\"",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T17:07:31.582Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNGQ0YWQ4MTAtMzllNy0xMWU5LWI0ZDctY2RhMmY5MjFkNjQ5",
+            "title": "direct",
+            "description": "You can probably achieve that via custom actions. ",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNGQ0YWQ4MTAtMzllNy0xMWU5LWI0ZDctY2RhMmY5MjFkNjQ5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "You can probably achieve that via custom actions. ",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T16:55:20.849Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZWEzZjUwNzAtMzllNi0xMWU5LTk5ZTgtYjc3ZGUyMjQ4OTNm",
+            "title": "direct",
+            "description": "Thanks",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZWEzZjUwNzAtMzllNi0xMWU5LTk5ZTgtYjc3ZGUyMjQ4OTNm",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Thanks",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:52:34.679Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZThhOWJjNTAtMzllNi0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+            "title": "direct",
+            "description": "anything is fine for me ",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZThhOWJjNTAtMzllNi0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "anything is fine for me ",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:52:32.021Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTQ0Y2NhZDAtMzllNi0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+            "title": "direct",
+            "description": "You can let me know on either approaches",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTQ0Y2NhZDAtMzllNi0xMWU5LWIxNTMtNmYwOTM3MDVkNWM0",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "You can let me know on either approaches",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:52:24.701Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvY2ZmYmZjOTAtMzllNi0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+            "title": "direct",
+            "description": "1 per type of data",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvY2ZmYmZjOTAtMzllNi0xMWU5LThjZDQtMWY2NjAwY2NhNTMy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "1 per type of data",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:51:50.617Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYzhjMmVkMzAtMzllNi0xMWU5LTg2NGMtMGYyYWM1NGFlMDUy",
+            "title": "direct",
+            "description": "since my plan is to have 3-4 view details kind of buttons",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYzhjMmVkMzAtMzllNi0xMWU5LTg2NGMtMGYyYWM1NGFlMDUy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "since my plan is to have 3-4 view details kind of buttons",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:51:38.499Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmEwZTZlNDAtMzllNi0xMWU5LTgzMzYtM2JjNjJiMjk4ZTY1",
+            "title": "direct",
+            "description": "is that possible in some way?",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmEwZTZlNDAtMzllNi0xMWU5LTgzMzYtM2JjNjJiMjk4ZTY1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "is that possible in some way?",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:51:13.828Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjA0YTIwMjEtMzllNi0xMWU5LTlmMmItYTNjMmI1ZDFmNzg0",
+            "title": "direct",
+            "description": "and the dialog card to have a if logic to decide from which button it was launched",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjA0YTIwMjEtMzllNi0xMWU5LTlmMmItYTNjMmI1ZDFmNzg0",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "and the dialog card to have a if logic to decide from which button it was launched",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:50:57.442Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTFiYjAzODAtMzllNi0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+            "title": "direct",
+            "description": "Another alternate way I m thinking is to have same dialog card",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTFiYjAzODAtMzllNi0xMWU5LTk0ZDAtYTk0MGE4NzUwY2E5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "Another alternate way I m thinking is to have same dialog card",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:50:33.016Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTFhOGM5NTAtMzllNi0xMWU5LWJkNzUtNTNjY2RlNjk1Yzk4",
+            "title": "direct",
+            "description": "ok..sure.",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTFhOGM5NTAtMzllNi0xMWU5LWJkNzUtNTNjY2RlNjk1Yzk4",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "ok..sure.",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:50:06.053Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGExMTQ2NDAtMzllNi0xMWU5LWE5YTgtNGIwZThhZWJhZDJj",
+            "title": "direct",
+            "description": "That's something I'm already looking into - I tested earlier having a dialog2.card, then changing tap-event=\"dialog2\", but it failed. So I will get back to you regarding that also, as I'm unfamiliar with the implementation of at-carbon-signal-button",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGExMTQ2NDAtMzllNi0xMWU5LWE5YTgtNGIwZThhZWJhZDJj",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "That's something I'm already looking into - I tested earlier having a dialog2.card, then changing tap-event=\"dialog2\", but it failed. So I will get back to you regarding that also, as I'm unfamiliar with the implementation of at-carbon-signal-button",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T16:49:53.316Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2ZiZjA1NzAtMzllNS0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+            "title": "direct",
+            "description": "But if there are multiple view buttons each intending to show data from a different list of objects",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2ZiZjA1NzAtMzllNS0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "But if there are multiple view buttons each intending to show data from a different list of objects",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:42:26.503Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWZmYmVhZjAtMzllNS0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+            "title": "direct",
+            "description": "<at-carbon-signal-button class=\"background-blue mt\" tap-event=\"dialog\">View Details</at-carbon-signal-button>\n",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWZmYmVhZjAtMzllNS0xMWU5LWFhNmMtMDE5N2I2MjhhYTAx",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "<at-carbon-signal-button class=\"background-blue mt\" tap-event=\"dialog\">View Details</at-carbon-signal-button>\n",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:41:33.215Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWY3MDlhZTAtMzllNS0xMWU5LWJiYTgtMjE4ZmQxNWVhMmUz",
+            "title": "direct",
+            "description": "I have this currently:",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWY3MDlhZTAtMzllNS0xMWU5LWJiYTgtMjE4ZmQxNWVhMmUz",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vNzU0NTBiYzktMmFlZS0zYWUxLWE1NDgtY2M0OGRmOWNiNDM1",
+              "roomType": "direct",
+              "text": "I have this currently:",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NWMzNDU1Ni1mNGNhLTQ1N2ItOTQxYS01ODg3YzU5NWVhNjQ",
+              "personEmail": "arbaliga@cisco.com",
+              "created": "2019-02-26T16:41:32.302Z"
+            },
+            "room": "Arun Baliga",
+            "displayName": "Arun Baliga",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2I1ZWU0NjAtMzliMS0xMWU5LTk5NWItYjc2YjYzMTg0MjRj",
+            "title": "direct",
+            "description": "ok, thanks",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvM2I1ZWU0NjAtMzliMS0xMWU5LTk5NWItYjc2YjYzMTg0MjRj",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZmQwOTJjN2YtN2YxYi0zNWQ1LThmYjktYzRkNGFiNmQxYzUw",
+              "roomType": "direct",
+              "text": "ok, thanks",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T10:28:17.958Z"
+            },
+            "room": "Martin",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmM1NzYzNzAtMzliMS0xMWU5LWEzZDctMmYzZGMzOGE0YzZl",
+            "title": "direct",
+            "description": "arbaliga@cisco.com",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmM1NzYzNzAtMzliMS0xMWU5LWEzZDctMmYzZGMzOGE0YzZl",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZmQwOTJjN2YtN2YxYi0zNWQ1LThmYjktYzRkNGFiNmQxYzUw",
+              "roomType": "direct",
+              "text": "arbaliga@cisco.com",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NjgzZGJiYS1lOGRmLTRjMjktYTc3NC0wODllZWM1ZjllMmE",
+              "personEmail": "ma@adenin.com",
+              "created": "2019-02-26T10:27:52.743Z"
+            },
+            "room": "Martin",
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjU0N2ZjMjAtMzliMS0xMWU5LWFjMzYtMWQ2ZTU4Yjg0NTg3",
+            "title": "direct",
+            "description": "great - I'll let Arun know that you'll contact him",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjU0N2ZjMjAtMzliMS0xMWU5LWFjMzYtMWQ2ZTU4Yjg0NTg3",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZmQwOTJjN2YtN2YxYi0zNWQ1LThmYjktYzRkNGFiNmQxYzUw",
+              "roomType": "direct",
+              "text": "great - I'll let Arun know that you'll contact him",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NjgzZGJiYS1lOGRmLTRjMjktYTc3NC0wODllZWM1ZjllMmE",
+              "personEmail": "ma@adenin.com",
+              "created": "2019-02-26T10:27:40.898Z"
+            },
+            "room": "Martin",
+            "displayName": "Martin",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTQyODZkYjAtMzlhYS0xMWU5LThmNDMtZjFkMDAzYWIwN2Jj",
+            "title": "direct",
+            "description": "Hello",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNTQyODZkYjAtMzlhYS0xMWU5LThmNDMtZjFkMDAzYWIwN2Jj",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZmQwOTJjN2YtN2YxYi0zNWQ1LThmYjktYzRkNGFiNmQxYzUw",
+              "roomType": "direct",
+              "text": "Hello",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-02-26T09:38:53.067Z"
+            },
+            "room": "Martin",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjM1YTdmMzAtNWMzYi0xMWU5LTk0ODYtMjkyNTQ3MmFlMmJi",
+            "title": "direct",
+            "description": "",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMjM1YTdmMzAtNWMzYi0xMWU5LTk0ODYtMjkyNTQ3MmFlMmJi",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "",
+              "files": [
+                "https://api.ciscospark.com/v1/contents/Y2lzY29zcGFyazovL3VzL0NPTlRFTlQvMjM1YTdmMzAtNWMzYi0xMWU5LTk0ODYtMjkyNTQ3MmFlMmJiLzA"
+              ],
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-11T09:21:07.747Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZDkyOTY2NDEtNWMzMi0xMWU5LTgwNjItZjVlNTFjZTJjYWQ2",
+            "title": "direct",
+            "description": "",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZDkyOTY2NDEtNWMzMi0xMWU5LTgwNjItZjVlNTFjZTJjYWQ2",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "",
+              "files": [
+                "https://api.ciscospark.com/v1/contents/Y2lzY29zcGFyazovL3VzL0NPTlRFTlQvZDkyOTY2NDEtNWMzMi0xMWU5LTgwNjItZjVlNTFjZTJjYWQ2LzA"
+              ],
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-11T08:21:47.300Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYWIzYTg0ZDAtNWMzMi0xMWU5LTliMjAtMTNmMzc0YmI0ZjRj",
+            "title": "direct",
+            "description": "You've already used the Write a message area 👇 to send this message. To send a message in a new space or to a person click ➕. Find the person or create the space to send your message. If you have already messaged to the person or space, use the 🔍 to find and continue your conversation. It’s that simple.",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYWIzYTg0ZDAtNWMzMi0xMWU5LTliMjAtMTNmMzc0YmI0ZjRj",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "You've already used the Write a message area 👇 to send this message. To send a message in a new space or to a person click ➕. Find the person or create the space to send your message. If you have already messaged to the person or space, use the 🔍 to find and continue your conversation. It’s that simple.",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84N2IyODQzMi0zMjAyLTQzOWEtYTM1ZC1mMjc1ZDI0NDA2OGE",
+              "personEmail": "help@webex.bot",
+              "markdown": "You've already used the _Write a message_ area 👇 to send this message.<br><br>To send a message in a new space or to a person click ➕. Find the person or create the space to send your message. If you have already messaged to the person or space, use the 🔍 to find and continue your conversation. It’s that simple.\n",
+              "html": "<p>You've already used the <em>Write a message</em> area 👇 to send this message.<br><br>To send a message in a new space or to a person click ➕. Find the person or create the space to send your message. If you have already messaged to the person or space, use the 🔍 to find and continue your conversation. It’s that simple.</p>",
+              "created": "2019-04-11T08:20:30.237Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYWFkMzg1YTAtNWMzMi0xMWU5LTljZDEtZjdmNjc3YmQyYzU2",
+            "title": "direct",
+            "description": "6",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYWFkMzg1YTAtNWMzMi0xMWU5LTljZDEtZjdmNjc3YmQyYzU2",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "6",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-11T08:20:29.562Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTlkOGQxZjAtNWMzMi0xMWU5LTgxOTAtMGJmODRjMDgxMmEw",
+            "title": "direct",
+            "description": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer. Create a space for a group conversation Create a team to organize group conversations Invite people to converse privately Make a video call Share photos and files Send a message Add special formatting to messages Get someone’s attention in a message Flag content to find it later Integrate Webex Teams with other apps",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTlkOGQxZjAtNWMzMi0xMWU5LTgxOTAtMGJmODRjMDgxMmEw",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer. Create a space for a group conversation Create a team to organize group conversations Invite people to converse privately Make a video call Share photos and files Send a message Add special formatting to messages Get someone’s attention in a message Flag content to find it later Integrate Webex Teams with other apps",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84N2IyODQzMi0zMjAyLTQzOWEtYTM1ZC1mMjc1ZDI0NDA2OGE",
+              "personEmail": "help@webex.bot",
+              "markdown": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer.\n\n1.\tCreate a space for a group conversation\n2.\tCreate a team to organize group conversations\n3.\tInvite people to converse privately\n4.\tMake a video call\n5.\tShare photos and files\n6.\tSend a message\n7.\tAdd special formatting to messages\n8.\tGet someone’s attention in a message\n9.\tFlag content to find it later\n10. Integrate Webex Teams with other apps\n",
+              "html": "<p>I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer.</p><ol><li>Create a space for a group conversation</li><li>Create a team to organize group conversations</li><li>Invite people to converse privately</li><li>Make a video call</li><li>Share photos and files</li><li>Send a message</li><li>Add special formatting to messages</li><li>Get someone’s attention in a message</li><li>Flag content to find it later</li><li>Integrate Webex Teams with other apps</li></ol>",
+              "created": "2019-04-11T08:20:27.919Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTk3YTEwMjAtNWMzMi0xMWU5LWJlMDctZTlmNTZlYjcwY2Ux",
+            "title": "direct",
+            "description": "help",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYTk3YTEwMjAtNWMzMi0xMWU5LWJlMDctZTlmNTZlYjcwY2Ux",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "help",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-11T08:20:27.298Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjdjOTEyNjAtNWI3NS0xMWU5LTlmMTgtZTU5ZTQ2NjdjN2U1",
+            "title": "direct",
+            "description": "Looks like I've got some learning to do. Type help to see what I can do",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjdjOTEyNjAtNWI3NS0xMWU5LTlmMTgtZTU5ZTQ2NjdjN2U1",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "Looks like I've got some learning to do. Type help to see what I can do",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84N2IyODQzMi0zMjAyLTQzOWEtYTM1ZC1mMjc1ZDI0NDA2OGE",
+              "personEmail": "help@webex.bot",
+              "markdown": "Looks like I've got some learning to do. Type **help** to see what I can do\n",
+              "html": "<p>Looks like I've got some learning to do. Type <strong>help</strong> to see what I can do</p>",
+              "created": "2019-04-10T09:47:56.422Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjc4OGQ1MTAtNWI3NS0xMWU5LWE1YmUtOWY3ZWY4NmNhOWFh",
+            "title": "direct",
+            "description": "mention me",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYjc4OGQ1MTAtNWI3NS0xMWU5LWE1YmUtOWY3ZWY4NmNhOWFh",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "mention me",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-10T09:47:56.001Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmNhMjBlMzAtNWI3NS0xMWU5LTgyMGQtOWIxYjA4MzQ5OTI5",
+            "title": "direct",
+            "description": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer. Create a space for a group conversation Create a team to organize group conversations Invite people to converse privately Make a video call Share photos and files Send a message Add special formatting to messages Get someone’s attention in a message Flag content to find it later Integrate Webex Teams with other apps",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmNhMjBlMzAtNWI3NS0xMWU5LTgyMGQtOWIxYjA4MzQ5OTI5",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer. Create a space for a group conversation Create a team to organize group conversations Invite people to converse privately Make a video call Share photos and files Send a message Add special formatting to messages Get someone’s attention in a message Flag content to find it later Integrate Webex Teams with other apps",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84N2IyODQzMi0zMjAyLTQzOWEtYTM1ZC1mMjc1ZDI0NDA2OGE",
+              "personEmail": "help@webex.bot",
+              "markdown": "I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer.\n\n1.\tCreate a space for a group conversation\n2.\tCreate a team to organize group conversations\n3.\tInvite people to converse privately\n4.\tMake a video call\n5.\tShare photos and files\n6.\tSend a message\n7.\tAdd special formatting to messages\n8.\tGet someone’s attention in a message\n9.\tFlag content to find it later\n10. Integrate Webex Teams with other apps\n",
+              "html": "<p>I'm here to help you get stuff done with Webex Teams 💪 Type a number from below. You can also ask your question and I'll do my best to answer.</p><ol><li>Create a space for a group conversation</li><li>Create a team to organize group conversations</li><li>Invite people to converse privately</li><li>Make a video call</li><li>Share photos and files</li><li>Send a message</li><li>Add special formatting to messages</li><li>Get someone’s attention in a message</li><li>Flag content to find it later</li><li>Integrate Webex Teams with other apps</li></ol>",
+              "created": "2019-04-10T09:44:02.963Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmMxZDRkZDAtNWI3NS0xMWU5LThmMjItZjNiZTEwYjVlYWIy",
+            "title": "direct",
+            "description": "help",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmMxZDRkZDAtNWI3NS0xMWU5LThmMjItZjNiZTEwYjVlYWIy",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "help",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84ZjFmYzBjYS04N2ZmLTRkZTUtYmM1MC1iOTVlMmIzMTk3Mjk",
+              "personEmail": "oliver.mcnally@adenin.com",
+              "created": "2019-04-10T09:44:02.093Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Oliver McNally",
+            "avatar": null
+          },
+          {
+            "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmVkZDRmMzAtMzlhYS0xMWU5LWJmOTItN2QwY2E4NGY4ZmNl",
+            "title": "direct",
+            "description": "🤗 Welcome to Webex Teams! You can easily meet with your team and collaborate on projects from anywhere, anytime. 💪 I'm here to help you unlock the magic. Say help or ask me questions about Webex Teams like What is a space? or How do I make a video call? Want to increase productivity? These apps are readily available to help you.",
+            "link": null,
+            "raw": {
+              "id": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmVkZDRmMzAtMzlhYS0xMWU5LWJmOTItN2QwY2E4NGY4ZmNl",
+              "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vMmU5YjFlODUtMmNjNy0zNjZhLWEwMTctMzU4MmRmN2UzZTVl",
+              "roomType": "direct",
+              "text": "🤗 Welcome to Webex Teams! You can easily meet with your team and collaborate on projects from anywhere, anytime. 💪 I'm here to help you unlock the magic. Say help or ask me questions about Webex Teams like What is a space? or How do I make a video call? Want to increase productivity? These apps are readily available to help you.",
+              "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS84N2IyODQzMi0zMjAyLTQzOWEtYTM1ZC1mMjc1ZDI0NDA2OGE",
+              "personEmail": "help@webex.bot",
+              "markdown": "🤗 Welcome to Webex Teams! You can easily meet with your team and collaborate on projects from anywhere, anytime. 💪<br><br>I'm here to help you unlock the magic. Say **help** or ask me questions about Webex Teams like **What is a space?** or **How do I make a video call?**\n\nWant to increase [productivity](https://assistant-service-a.wbx2.com/ur?f=https%3A%2F%2Fapphub.webex.com%2Fcategories%2Fproductivity&u=8f1fc0ca-87ff-4de5-bc50-b95e2b319729&rr=overview_campaign_r1)? These [apps](https://assistant-service-a.wbx2.com/ur?f=https%3A%2F%2Fapphub.webex.com%2Fcategories%2Fproductivity&u=8f1fc0ca-87ff-4de5-bc50-b95e2b319729&rr=overview_campaign_r1) are readily available to help you.",
+              "html": "<p>🤗 Welcome to Webex Teams! You can easily meet with your team and collaborate on projects from anywhere, anytime. 💪<br><br>I'm here to help you unlock the magic. Say <strong>help</strong> or ask me questions about Webex Teams like <strong>What is a space?</strong> or <strong>How do I make a video call?</strong></p><p>Want to increase <a href=\"https://assistant-service-a.wbx2.com/ur?f=https%3A%2F%2Fapphub.webex.com%2Fcategories%2Fproductivity&amp;u=8f1fc0ca-87ff-4de5-bc50-b95e2b319729&amp;rr=overview_campaign_r1\" rel=\"nofollow\">productivity</a>? These <a href=\"https://assistant-service-a.wbx2.com/ur?f=https%3A%2F%2Fapphub.webex.com%2Fcategories%2Fproductivity&amp;u=8f1fc0ca-87ff-4de5-bc50-b95e2b319729&amp;rr=overview_campaign_r1\" rel=\"nofollow\">apps</a> are readily available to help you.</p>",
+              "created": "2019-02-26T09:37:50.499Z"
+            },
+            "room": "Help Bot",
+            "displayName": "Help Bot",
+            "avatar": "https://1efa7a94ed216783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~b5a0c3c5eee6a735451653e9a6d39729~_z4_S_x1QVWbCkw1yAHQew==~80"
+          }
+        ],
+      "_settings": {}
+    }
+  xclass: 
+  xstyle: 
+$type: card
